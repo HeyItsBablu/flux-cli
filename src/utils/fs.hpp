@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 #include <cstdint> 
+#include <fstream>
 
 bool fs_create_dir(const std::string& path);
 bool fs_create_dirs(const std::string& path);
